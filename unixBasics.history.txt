@@ -1,0 +1,15 @@
+  267  git push
+  268  git rm oops
+  269  git commit -m 'removing oops'
+  270  git push
+  271  vi oops2
+  272  ls -F
+  273  git add oops2
+  274  git commit -m 'adding oops2'
+  275  git push
+  276  rm oops2
+  277  git add oops2
+  278  git commit -m 'removing oops2'
+  279  git push
+  280  vi never
+  281  git add never
